@@ -120,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context);
     final isLandscape = mediaQuery.orientation == Orientation.landscape;
-    final   appBar = Platform.isIOS
+    final dynamic appBar = Platform.isIOS
         ? CupertinoNavigationBar(
            middle: Text(
                    'Personal Expenses ',
